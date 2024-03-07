@@ -230,3 +230,128 @@ nav a {
     height: 24px;
     margin-right: 10px;
 }
+
+
+/* Help */
+
+.help {
+    margin-top: 100px;
+    margin-bottom: 80px;
+}
+
+.help h2 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.help h2:last-of-type {
+    margin-bottom: 15px;
+    margin-top: 80px;
+}
+
+.help-subtitle {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    margin-bottom: 16px;
+}
+
+.help-content {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.help-content div {
+    padding: 20px;
+    border: 1px solid rgba(47, 43, 67, 0.15);
+    border-radius: 20px;
+    width: 25%;
+    margin-right: 20px;
+}
+
+.help-content div img {
+    height: 24px;
+    display: block;
+    /* чтобы не располагалась в строку  */
+    margin-bottom: 15px;
+}
+
+.help-content div p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    margin-bottom: 35px;
+}
+
+.help-number {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #140a31;
+    display: block;
+}
+
+.help-button {
+    color: #33836E;
+    font-weight: 600;
+    font-style: 16px;
+    text-decoration: none;
+}
+
+.help-call {
+    border-radius: 20px;
+    background: #33836E;
+    padding: 50px 0px 50px 0px;
+
+    position: relative;
+    overflow: hidden;
+    /* Если захоид за границы то части объекта скрываются */
+}
+
+.help-class-women {
+    position: absolute;
+    bottom: 0;
+    left: 36;
+    z-index: 2;
+}
+
+.help-call-elipse {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.help-call-content {
+    display: flex;
+    align-items: center;
+    margin-left: 313px;
+}
+
+.help-call-content div {
+    margin-right: 116px;
+}
+
+.help-call-content p:first-child {
+    font-size: 24px;
+    font-weight: 600px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.help-call-content p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.help-call-content a{
+font-size: 42px;
+font-weight: 700;
+color: white;
+text-decoration: none;
+}
